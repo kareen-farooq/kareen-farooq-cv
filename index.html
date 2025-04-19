@@ -1,0 +1,162 @@
+DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Personal CV</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Karen Farooq</h1>
+    <p>Living in [Erbil]</p>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <p>Hello! My name is <strong>Karen</strong>. I'm originally from <strong>[Kurdistan]</strong>. I am currently living in <strong>[Erbil]</strong>. I'm passionate about technology, creativity, and using code to solve real-world problems.</p>
+  </section>
+
+  <section>
+    <h2>Interests</h2>
+    <ul>
+      <li>Web development</li>
+      <li>Sports like basketball and tennis</li>
+      <li>Learning Different Languages</li>
+      <li>design</li>
+      <li> listening to podcasts</li>
+    </ul>
+  </section>
+  <section>
+    <h2>Languages I Speak</h2>
+    <ul>
+      <li>English</li>
+      <li>kurdish</li>
+      <li>Turkish</li>
+  
+  <section>     <h2>Hobbies</h2>
+    <ul>
+
+    </ul>
+  </section>
+      <li>Reading tech blogs</li>      <li>Playing video games</li>
+      <li>Drawing or digital art</li>
+      <li>Hiking and outdoor walks</li>
+    </ul>      </section>
+    
+
+
+
+
+
+  <section>
+    <h2>Education</h2>
+    <p>I graduated from <strong>[Nilufer Girls high School]</strong> I study in <strong>[Software Engineering]</strong>.</p>
+    <p>I chose this major because I’ve always been fascinated by how computers work and how software is built. I wanted to learn how to bring my own ideas to life through technology.</p>
+  </section>
+
+  <section>
+    <h2>Programming Languages I Know</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>Java</li>
+      <li>Sql</li>
+      <li>C++</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Your Name — All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
+<nav>
+    <ul>
+        <li><a href="#about-me">About Me</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+
+<style>
+    nav {
+        background-color: #333;
+        padding: 1em;
+    }
+    nav ul {
+        list-style: none;
+    margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+    nav ul li {
+        margin: 0 15px;
+    }
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    nav ul li a:hover {
+        text-decoration: underline;
+    }
+</style></nav>
+
+<section>
+    <h2>Download My CV</h2>
+    <a href="Karen_Farooq_CV.pdf" download>
+        <button style="padding: 10px 20px; background-color: #333; color: white; border: none; cursor: pointer;">
+            Download CV
+        </button>
+    </a>
+</section>
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+<style>
+    h2 i {
+        margin-right: 10px;
+        color: #333;
+    }
+</style>
+
+<script>
+    document.querySelectorAll('section h2').forEach((heading, index) => {
+        const icons = [
+            'fas fa-user',          // About Me
+            'fas fa-heart',         // Interests
+            'fas fa-lightbulb',     // What I’m Passionate About
+            'fas fa-paint-brush',   // Hobbies
+            'fas fa-graduation-cap',// Education
+            'fas fa-code'           // Programming Languages I Know
+        ];
+        const icon = document.createElement('i');
+        icon.className = icons[index] || 'fas fa-star';
+        heading.prepend(icon);
+    });
+</script>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+    <form action="https://example.com/submit-form" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" name="subject" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit" style="padding: 10px 20px; background-color: #333; color: white; border: none; cursor: pointer;">
+            Send Message
+        </button>
+    </form>

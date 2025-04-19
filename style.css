@@ -1,0 +1,309 @@
+et some default browser styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fff0f5; /* light pink background */
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #ff69b4; /* hot pink */
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+  
+  header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+  }
+  
+  /* Section layout */
+  section {
+    max-width: 800px;
+    margin: 30px auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  }
+  
+  section h2 {
+    color: #d63384; /* rose pink heading */
+    margin-bottom: 15px;
+    font-size: 1.6rem;
+    border-bottom: 2px solid #ffc0cb;
+    padding-bottom: 5px;
+  }
+  
+  section ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  section p,
+  section li {
+    font-size: 1.05rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #ff69b4;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    border-top: 4px solid #ffb6c1;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 0.95rem;
+  }
+
+/* Contact form styles */
+form {
+    border: 2px solid #ff69b4; /* pink border */
+    border-radius: 12px; /* rounded corners */
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* soft shadow */
+    background-color: #fff;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    font-size: 1.6rem;
+    border-bottom: 2px solid #ffc0cb;
+    padding-bottom: 5px;
+  }
+  
+  section ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  section p,
+  section li {
+    font-size: 1.05rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #ff69b4;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    border-top: 4px solid #ffb6c1;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 0.95rem;
+  }
+
+/* Contact form styles */
+form {
+    border: 2px solid #ff69b4; /* pink border */
+    border-radius: 12px; /* rounded corners */
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* soft shadow */
+    background-color: #fff;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    font-size: 1.6rem;
+    border-bottom: 2px solid #ffc0cb;
+    padding-bottom: 5px;
+  }
+  
+  section ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  section p,
+  section li {
+    font-size: 1.05rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #ff69b4;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    border-top: 4px solid #ffb6c1;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 0.95rem;
+  }
+
+/* Contact form styles */
+form {
+    border: 2px solid #ff69b4; /* pink border */
+    border-radius: 12px; /* rounded corners */
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* soft shadow */
+    background-color: #fff;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+form button {
+    background-color: #ff69b4; /* hot pink button */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #d63384; /* darker pink on hover */
+}
+
+/* Responsive design for mobile screens */
+@media (max-width: 768px) {
+    header {
+        padding: 30px 15px;
+    }
+
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+
+    section {
+        margin: 20px 10px;
+        padding: 20px;
+    }
+
+    section h2 {
+        font-size: 1.4rem;
+    }
+
+    section p,
+    section li {
+        font-size: 1rem;
+    }
+
+    form {
+        padding: 15px;
+    }
+
+    form button {
+        font-size: 0.9rem;
+        padding: 8px 15px;
+    }
+
+    footer {
+        padding: 15px;
+    }
+
+    footer p {
+        font-size: 0.85rem;
+    }
+}
+
+/* Hover effects for section cards */
+section:hover {
+    transform: scale(1.02); /* Slightly enlarge */
+    box-shadow: 0 6px 15px 
+    padding: 20px;
+}
+
+section h2 {
+    font-size: 1.4rem;
+}
+
+section p,
+section li {
+    font-size: 1rem;
+}
+
+form {
+    padding: 15px;
+}
+
+form button {
+    font-size: 0.9rem;
+    padding: 8px 15px;
+}
+
+footer {
+    padding: 15px;
+}
+
+footer p {
+    font-size: 0.85rem;
+}
+
+
+/* Hover effects for section cards */
+section:hover {
+transform: scale(1.02); /* Slightly enlarge */
+box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15); /* Lift effect */
+transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+}
+
+header {
+background: linear-gradient(to right, #ffc0cb, #ff69b4); /* light pink to hot pink gradient */
+}
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Lobster&display=swap');
+
+/* Apply the fonts */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+header h1 {
+    font-family: 'Lobster', cursive;}
